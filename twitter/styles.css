@@ -1,0 +1,121 @@
+body{
+    background: rgb(21, 32, 43) !important;
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+input:focus{
+    outline: none;
+    border: none ;
+}
+
+#wrap *{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    
+}
+
+#wrap{
+    margin: 0px 33.33%;
+    margin-top: 20px;
+}
+
+#twitter{
+    zoom: 0.033;
+}
+
+#logtext{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.lbl{
+    width: 90%;
+    text-align: left;
+    color: gray;
+    background-color: rgba(256, 256, 256, 0.1);
+    padding: 0 ;
+}
+
+#loginform input{
+    width: 90%;
+    height: 40px;
+    background-color: rgba(256, 256, 256, 0.1);
+    padding: 0px;
+}
+
+.textip{
+    position: relative;
+    top: -21px;
+    border: none;
+    color: azure;
+    font-size: 20px;
+    
+}
+
+.textip :focus{
+    outline: none;
+    border: 0 transparent;
+
+}
+
+.underline{
+    height: 2px;
+    width: 90%;
+    position: relative;
+    top: -42px;
+}
+
+#submit{
+    border-radius: 25px;
+    height: 50px !important;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.notfillSpan{
+    background: gray !important;
+}
+
+.fillSpan{
+    background: rgb(29, 161, 242) !important;
+}
+.notFilllb{
+    background: rgba(29, 161, 242,0.5) !important;
+    color: gray;
+    border: 10px rgba(29, 161, 242,0.5);
+}
+
+.filllb{
+    background: rgb(29, 161, 242) !important;
+    color: white;
+    border: 10px rgb(29, 161, 242);
+}
+
+.focUser{
+    color: rgb(29, 161, 242);
+}
+
+#end *{
+    display: inline-block;
+}
+
+#end{
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+#end a{
+    text-decoration: none;
+    color: rgb(29, 161, 242);
+}
+
+#end span{
+    color: azure;
+}

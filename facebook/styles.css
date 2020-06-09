@@ -1,0 +1,159 @@
+body{
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #e9ebee;
+}
+
+p{
+    margin: 10px;
+}
+
+input{
+    border-radius: 4.5px;
+    border: 1px solid black;
+}
+
+#fb-header{
+    background-color: #3b5998;
+    padding: 0.5% 4% 0.5% 4%;
+}
+
+#fb-header *{
+    display: inline-block;
+}
+
+#fblogo{
+    height: 80px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#f1{
+    position: absolute;
+    left: 75%;
+    top: 20px;
+}
+
+#f2{
+    position: absolute;
+    left: 85%;
+    top: 20px;
+}
+
+#log{
+    color: azure;
+}
+
+#fb-header div{
+    display: block;
+}
+
+body{
+    background: linear-gradient(180deg, rgba(241,241,241,1) 0%, rgba(182,182,182,1) 50%, rgba(137,175,205,1) 100%);
+    background-repeat: no-repeat;
+    margin: 0px;
+    background-attachment: fixed;
+}
+#fb-body{
+    position: absolute;
+    left: 0px;
+    top: 90px;
+    width: 100%;
+    height: 645px;
+}
+
+#intro1{
+	top:20px;
+	color:#142170;
+	height:75px;
+    width:550px;
+    font-size: 35px;
+    margin: 0px 155px;
+}
+
+
+#intro2{
+    left:750px;
+	top:20px;
+	font-size:35px;
+	color:#142170;
+	height:75px;
+	width:500px;
+}
+
+.fleft{
+    float: left;
+    position: relative;
+    text-align: center;
+    padding: 50px;
+}
+
+.fright{
+    float: left;
+    position: relative;
+    padding: 75px;
+}
+
+#world{
+    height: 250px;
+    margin-top: 125px;
+}
+
+#intro3{
+    font-size: 27.5px;
+    padding-bottom: 25px;
+}
+
+#fb-form input{
+    margin: 10px 20px 10px 0px;
+    padding: 5px;
+    border-radius: 4.5px;
+    border: 1px solid black;
+}
+.name{
+    width: 200px;
+}
+
+#email{
+    width: 425px;
+}
+
+#password{
+    width: 425px;
+}
+
+#btext{
+    font-size: 23px;
+    color: #3b5998;
+}
+
+.birthday-wrap select{
+    width: 141.5px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+#gtext{
+    font-size: 23px;
+    color: #3b5998;
+}
+
+.grad{
+    font-size: 20.5px;
+    margin: 0px 20px 0px 5px;
+}
+
+#intro4{
+    font-size: 12px;
+    padding: 20px 0px;
+}
+
+#submit{
+    background-color:green;
+    color: white;
+    width: 300px;
+    height: 75px;
+    font-size: 25px;
+    border: 1px solid green;
+    border-radius: 4.5px; 
+}
